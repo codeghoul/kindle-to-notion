@@ -1,0 +1,23 @@
+{
+  "name": "kindle-to-notion",
+  "version": "1.0.0",
+  "description": "A cron written in JS to scrape highlights from kindle and add to notion.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "kindle",
+    "notion"
+  ],
+  "author": "codeghoul",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.0",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.2",
+    "lodash": "^4.17.21",
+    "selenium-webdriver": "^4.4.0"
+  }
+}
